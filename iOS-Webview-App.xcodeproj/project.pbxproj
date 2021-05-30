@@ -13,9 +13,7 @@
 		7458DFE5265F40DE009EE1E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7458DFE4265F40DE009EE1E4 /* Preview Assets.xcassets */; };
 		7458DFF0265F40DE009EE1E4 /* iOS_Webview_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458DFEF265F40DE009EE1E4 /* iOS_Webview_AppTests.swift */; };
 		7458DFFB265F40DE009EE1E4 /* iOS_Webview_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458DFFA265F40DE009EE1E4 /* iOS_Webview_AppUITests.swift */; };
-		7458E009265F4A67009EE1E4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458E008265F4A67009EE1E4 /* WebViewController.swift */; };
 		74F599C22664043B007B72B4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F599C12664043B007B72B4 /* WebView.swift */; };
-		74F599C426640C69007B72B4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F599C326640C69007B72B4 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +46,7 @@
 		7458DFF6265F40DE009EE1E4 /* iOS-Webview-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Webview-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7458DFFA265F40DE009EE1E4 /* iOS_Webview_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Webview_AppUITests.swift; sourceTree = "<group>"; };
 		7458DFFC265F40DE009EE1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7458E008265F4A67009EE1E4 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		74F599C12664043B007B72B4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		74F599C326640C69007B72B4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +100,6 @@
 				7458DFDD265F40DB009EE1E4 /* iOS_Webview_AppApp.swift */,
 				7458DFDF265F40DB009EE1E4 /* ContentView.swift */,
 				74F599C12664043B007B72B4 /* WebView.swift */,
-				74F599C326640C69007B72B4 /* ViewModel.swift */,
-				7458E008265F4A67009EE1E4 /* WebViewController.swift */,
 				7458DFE1265F40DE009EE1E4 /* Assets.xcassets */,
 				7458DFE6265F40DE009EE1E4 /* Info.plist */,
 				7458DFE3265F40DE009EE1E4 /* Preview Content */,
@@ -268,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74F599C426640C69007B72B4 /* ViewModel.swift in Sources */,
-				7458E009265F4A67009EE1E4 /* WebViewController.swift in Sources */,
 				74F599C22664043B007B72B4 /* WebView.swift in Sources */,
 				7458DFE0265F40DB009EE1E4 /* ContentView.swift in Sources */,
 				7458DFDE265F40DB009EE1E4 /* iOS_Webview_AppApp.swift in Sources */,
